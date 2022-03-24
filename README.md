@@ -1,9 +1,12 @@
 # Wuerfelspiel
+In diesem Repository soll ein Würfelspiel entwickelt werden. ![Kniffel](https://i.pinimg.com/236x/47/cc/5e/47cc5e1c3d139196e10c98fc81727561.jpg)
 
 ## Ziele :dart:
 - Objektorientierte Analyse und Modellierung üben (UML-Klassendiagramme erstellen)
 - Testgetriebene Entwicklung (UnitTests)
-- Vererbung einsetzen
+- Vorhandene Klassen wiederverwenden (Vererbung einsetzen, z.B. Spezialwürfel einbauen)
+- Wiederverwendbare GUI-Elemente einsetzen (UserControls)
+- Verknüpfung zwischen GUI-Elementen und anderen Klassen.
 
 ## Würfel :game_die:
 Jeder kennt die Würfel, die für Spiele wie Kniffel oder Monopoly verwendet werden. Sie besitzen 6 Seiten, die mit einem bis sechs Punkten markiert sind. Die ältesten solcher Würfel sind über 5000 Jahre alt. Sie sind so populär, dass sie sogar als ASCII-Zeichen vorhanden sind: ⚀⚁⚂⚃⚄⚅
