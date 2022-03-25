@@ -33,7 +33,9 @@ jobs:
           msbuild.exe Wuerfelspiel.sln /p:platform="Any CPU" /p:configuration="Release"
 
       - name: show Folder
-        run: dir
+        run: |
+          cd WuerfelspielTests\obj\Debug\
+          dir
         shell: cmd
         
       #- name: Run Tests
