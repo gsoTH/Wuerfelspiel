@@ -38,5 +38,5 @@ jobs:
           dir
         shell: cmd
         
-      #- name: Run Tests
-      #  run: vstest.console.exe .\WuerfelspielTests\obj\bin\Release\WuerfelspielTests.dll
+      - name: Run Tests
+        run: vstest.console.exe .\WuerfelspielTests\obj\Release\WuerfelspielTests.dll
