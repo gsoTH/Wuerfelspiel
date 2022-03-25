@@ -1,3 +1,7 @@
+[![Build and Tests](https://github.com/gsoTH/Wuerfelspiel/actions/workflows/build-and-test.yml/badge.svg?branch=master)](https://github.com/gsoTH/Wuerfelspiel/actions/workflows/build-and-test.yml)
+
+___
+
 # Wuerfelspiel
 In diesem Repository soll ein Würfelspiel entwickelt werden. ![Kniffel](https://i.pinimg.com/236x/47/cc/5e/47cc5e1c3d139196e10c98fc81727561.jpg)
 
