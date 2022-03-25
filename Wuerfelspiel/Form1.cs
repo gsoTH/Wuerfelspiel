@@ -16,6 +16,5 @@ namespace Wuerfelspiel
         {
             InitializeComponent();
         }
-
     }
 }
