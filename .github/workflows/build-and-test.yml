@@ -39,4 +39,4 @@ jobs:
         shell: cmd
         
       - name: Run Tests
-        run: vstest.console.exe /FailWhenNoTestsFound: true \WuerfelspielTests\obj\Release\WuerfelspielTests.dll
+        run: vstest.console.exe /FailWhenNoTestsFound:"true" \WuerfelspielTests\obj\Release\WuerfelspielTests.dll
