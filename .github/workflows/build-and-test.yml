@@ -31,6 +31,10 @@ jobs:
       - name: Build Solution
         run: |
           msbuild.exe Wuerfelspiel.sln /p:platform="Any CPU" /p:configuration="Release"
+
+      - name: show Folder
+        run: dir
+        shell: cmd
         
-      - name: Run Tests
-        run: vstest.console.exe .\WuerfelspielTests\obj\bin\Release\WuerfelspielTests.dll
+      #- name: Run Tests
+      #  run: vstest.console.exe .\WuerfelspielTests\obj\bin\Release\WuerfelspielTests.dll
