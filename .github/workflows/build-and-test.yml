@@ -25,13 +25,6 @@ jobs:
       - name: Setup VSTest
         uses: darenm/Setup-VSTest@v1
 
-      - name: Display the path
-        run: echo %PATH%
-        shell: cmd
-
-      #- name: Navigate to Workspace
-      #  run: cd $GITHUB_WORKSPACE
-
       - name: Restore Packages
         run: nuget restore Wuerfelspiel.sln
 
@@ -40,4 +33,4 @@ jobs:
           msbuild.exe Wuerfelspiel.sln /p:platform="Any CPU" /p:configuration="Release"
         
       - name: Run Tests
-        run: vstest.console.exe .\WuerfelspielTests\obj\bin\Release\Wuerfelspiel.Tests.dll
+        run: vstest.console.exe .\WuerfelspielTests\obj\bin\Release\WuerfelspielTests.dll
