@@ -39,5 +39,5 @@ jobs:
         run: |
           msbuild.exe Wuerfelspiel.sln /p:platform="Any CPU" /p:configuration="Release"
         
-      #- name: Run Tests
-      #  run: vstest.console.exe .\tests\Wuerfelspiel.Tests\bin\Release\Wuerfelspiel.Tests.dll
+      - name: Run Tests
+        run: vstest.console.exe .\tests\Wuerfelspiel.Tests\bin\Release\Wuerfelspiel.Tests.dll
