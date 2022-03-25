@@ -2,7 +2,7 @@
 
 namespace Wuerfelspiel
 {
-    class Wuerfel
+    public class Wuerfel
     {
     }
 }
