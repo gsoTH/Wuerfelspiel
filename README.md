@@ -22,7 +22,7 @@ ___
 ## Anforderungen :dart: 
 In diesem Repository soll ein Würfelspiel entwickelt werden.
 1. Konkret soll das Spiel [Kniffel](https://de.wikipedia.org/wiki/Kniffel) nachgebaut werden. 
-2. Die entwickelte Spiellogig soll in Konsolen-Programmen und in Windows-Forms-Programmen genutzt werden können. Das bedeutet, dass die Logik in eigenen Klassen, nicht innerhalb z.B. der Programm.cs oder Form1.cs liegt. In der Programm.cs bzw. Form1.cs soll die Spiellogik nur eingebunden werden.
+2. Die entwickelte Spiellogik soll in Konsolen-Programmen und in Windows-Forms-Programmen genutzt werden können. Das bedeutet, dass die Logik in eigenen Klassen, nicht innerhalb z.B. der Programm.cs oder Form1.cs liegt. In der Programm.cs bzw. Form1.cs soll die Spiellogik nur eingebunden werden.
 3. Alle Klassen sollen so aufgebaut sein, dass das Programm erweiterungsfähig ist, so dass ein ähnliches Spiel wie [Balut](https://de.wikipedia.org/wiki/Balut_(W%C3%BCrfelspiel)#Spielregeln) leicht umgesetzt werden kann. 
 
 ### Abgrenzungen :no_entry:
