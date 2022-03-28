@@ -43,6 +43,7 @@ Details zu WÜrfeln finden sich weiter unten in diesem Dokument.
 - Ein Wurf ist eine Sammlung aus 5 Würfeln. Je nach Feld werden nur bestimmte Würfel gezählt (z.B. "nur einser zählen") oder Punkte nur vergeben, wenn bestimmte Vorrausetzungen erfüllt sind (z.B. Full-House: zwei gleiche Würfel + drei gleiche Würfel). 
 - Wenn ein ungültiger Wurf in ein Feld eingefügt wird, wird das Feld "gestrichen".
 
+___
 
 ### Detailbeschreibungen (optional :smirk:)
 #### Würfel :game_die:
