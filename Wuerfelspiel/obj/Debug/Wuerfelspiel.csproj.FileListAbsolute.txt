@@ -1,9 +1,0 @@
-I:\repos\Wuerfelspiel\Wuerfelspiel\bin\Debug\Wuerfelspiel.exe.config
-I:\repos\Wuerfelspiel\Wuerfelspiel\bin\Debug\Wuerfelspiel.exe
-I:\repos\Wuerfelspiel\Wuerfelspiel\bin\Debug\Wuerfelspiel.pdb
-I:\repos\Wuerfelspiel\Wuerfelspiel\obj\Debug\Wuerfelspiel.csprojAssemblyReference.cache
-I:\repos\Wuerfelspiel\Wuerfelspiel\obj\Debug\Wuerfelspiel.Properties.Resources.resources
-I:\repos\Wuerfelspiel\Wuerfelspiel\obj\Debug\Wuerfelspiel.csproj.GenerateResource.cache
-I:\repos\Wuerfelspiel\Wuerfelspiel\obj\Debug\Wuerfelspiel.csproj.CoreCompileInputs.cache
-I:\repos\Wuerfelspiel\Wuerfelspiel\obj\Debug\Wuerfelspiel.exe
-I:\repos\Wuerfelspiel\Wuerfelspiel\obj\Debug\Wuerfelspiel.pdb
