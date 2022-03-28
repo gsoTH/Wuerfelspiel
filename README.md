@@ -35,10 +35,21 @@ Je nach Spielart kann es interessant sein, nicht nur die obenliegende Zahl, sond
 Bei den meisten Würfeln, die gegenüberliegende Seiten haben, lässt sich daraus die Regel ableiten, dass die Summe der gegenüberliegenden Seiten immer n+1 beträgt.
 
 ## Anforderungen :memo: 
-Es soll eine Klasse entwickelt werden, um Spielwürfel digital nachzubilden.
-- Würfel haben eine unterschiedliche Anzahl an Seiten (n). Falls keine Zahl angegeben wird, geht man von einem W6 aus.
+1. Es soll das Spiel [Kniffel](https://de.wikipedia.org/wiki/Kniffel) nachgebaut werden. Mindestanforderung ist der sogenannte [obere Block](https://de.wikipedia.org/wiki/Kniffel#Oberer_Block) inkl. einer Zwischensumme, auf die unter Umständen ein Bonus aufgeschlagen wird. Zwischensumme + Bonus ergibt die Summe des oberen Blocks.
+2. Die entwickelte Spiellogig soll in Konsolen-Programmen und in Windows-Forms-Programmen genutzt werden können. Das bedeutet, dass die Logik in eigenen Klassen, nicht innerhalb z.B. der Programm.cs oder Form1.cs liegt. In der Programm.cs bzw. Form1.cs soll die Spiellogik nur eingebunden werden.
+3. Alle Klassen sollen so aufgebaut sein, dass das Programm erweiterungsfähig ist, so dass ein ähnliches Spiel wie [Balut](https://de.wikipedia.org/wiki/Balut_(W%C3%BCrfelspiel)#Spielregeln) leicht umgesetzt werden kann. 
+4. Die nachfolgenden Beschreibungen sollen bei der Modellierung beachtet werden.
+
+### Fachliche Beschreibungen
+- Würfel haben eine unterschiedliche Anzahl an Seiten (w). Falls keine Zahl angegeben wird, geht man von einem W6 aus.
 - Einen Würfel kann man würfeln, wodurch eine zufälliger Wert erzeugt wird. Das Ergebnis des letzten Wurfes muss abgefragt werden können, ohne es automatisch neu zu würfeln. Für viele Spiele kann man Würfel "sichern", wodurch sie beim nächsten Wurf nicht mit berücksichtigt werden (bspw. bei Kniffel).
 - Für einige Spiele ist es wichtig, den Wert der genau unten liegenden Seite zu kennen, weil diese verwendet werden darf. Bei einem W6 ist z.B. die 2 gegenüber von der 5. Wenn also eine 5 gewürfelt wurde, muss die 2 als "Gegenwert" auch abgefragt werden können.
 
 ### Abgrenzungen
 - Vorerst nur die wichtigsten Würfel umsetzen: W6, W8, W10, W12, W20. Keine Bilwürfel o.ä.
+
+
+<!---
+Platzhalter 
+fürs Auskommentieren von Inhalten
+-->
