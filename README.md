@@ -2,11 +2,18 @@
 [![Build and Tests](https://github.com/gsoTH/Wuerfelspiel/actions/workflows/build-and-test.yml/badge.svg?branch=master)](https://github.com/gsoTH/Wuerfelspiel/actions/workflows/build-and-test.yml)
 -->
 #### Ziele/Kompetenzen :seedling:
-- Objektorientierte Analyse und Modellierung üben (UML-Klassendiagramme erstellen)
-- Testgetriebene Entwicklung (UnitTests)
+1. Objektorientierte Analyse und Modellierung einsetzen, indem Sie 
+- die die zu implementierenden Strukturen (d.h. die Architektur, den Aufbau) als UML-Klassendiagramm darstellen
 - Vorhandene Klassen wiederverwenden (Vererbung einsetzen, z.B. Spezialwürfel einbauen)
+2. Testgetriebene Entwicklung betreiben, indem Sie 
+- das Verhalten der Klassen als Unit Tests beschreiben
+- UnitTests für alle Klassen/Methoden/Eigenschaften entwickeln, bevor Sie diese implementieren
+3. Logik und Darstellung trennen, indem Sie
 - Wiederverwendbare GUI-Elemente einsetzen (UserControls)
-- Verknüpfung zwischen GUI-Elementen und anderen Klassen.
+- keine Logik in der GUI zu implementieren, sondern alles in spezialisierte Klassen auslagern
+4. Versionskontrolle betreiben, indem Sie
+- git und github einsetzen um Ihre Ergebnisse zu sichern
+- nach jedem logischen Entwicklungsschritt einen commit durchführen
 ___
 
 # Wuerfelspiel
