@@ -38,7 +38,7 @@ Kniffel ist ein Würfelspiel mit fünf Würfeln, einem Würfelbecher und einem s
 - Würfel haben eine unterschiedliche Anzahl an Seiten (w). Falls keine Zahl angegeben wird, geht man von einem W6 aus.
 - Einen Würfel kann man würfeln, wodurch eine zufälliger Wert erzeugt wird. Das Ergebnis des letzten Wurfes muss abgefragt werden können, ohne es automatisch neu zu würfeln. Für viele Spiele kann man Würfel "sichern", wodurch sie beim nächsten Wurf nicht mit berücksichtigt werden (bspw. bei Kniffel).
 - Für einige Spiele ist es wichtig, den Wert der genau unten liegenden Seite zu kennen, weil diese verwendet werden darf. Bei einem W6 ist z.B. die 2 gegenüber von der 5. Wenn also eine 5 gewürfelt wurde, muss die 2 als "Gegenwert" auch abgefragt werden können.
-Details zu WÜrfeln finden sich weiter unten in diesem Dokument.
+Details zu Würfeln finden sich weiter unten in diesem Dokument.
 
 ### Spielblock
 - Der Spielblock besteht bei Kniffel aus einem oberen Block und einem unteren Block.
