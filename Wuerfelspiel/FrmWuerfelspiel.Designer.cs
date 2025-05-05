@@ -1,6 +1,6 @@
 ﻿namespace Wuerfelspiel
 {
-    partial class Form1
+    partial class FrmWuerfelspiel
     {
         /// <summary>
         /// Erforderliche Designervariable.
